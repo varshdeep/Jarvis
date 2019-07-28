@@ -3,9 +3,13 @@ from plugin import plugin
 import numpy as np
 import math
 import tabula
-@plugin("check slot for course")
+@plugin("checkslot")
 #System.setProperty("sun.java2d.cmm", "sun.java2d.cmm.kcms.KcmsServiceProvider")
 def helloworld(jarvis, s):
+   """
+   Provides slot for course
+   Usage: checkslot <course_id>
+   """
    # Read remote pdf into DataFrame
    df2 = tabula.read_pdf("http://www.iitmandi.ac.in/academics/files/Timetable_Aug-Dec2019.pdf", pages=2)
    arr=df2.get_values()
