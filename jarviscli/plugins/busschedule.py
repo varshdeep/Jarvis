@@ -18,9 +18,9 @@ def convert(s):
     return new 
 
 def busschedule(jarvis, s):
-   """
-   Provides latest bus available
-   """
+    """
+    Provides latest bus available
+    """
     df2 = tabula.read_pdf("http://iitmandi.ac.in/files/inst_bus_schedule_12thjune2019.pdf", pages=2, multiple_tables=True)
     arr=df2[0].get_values()
     print(arr[8][3])
