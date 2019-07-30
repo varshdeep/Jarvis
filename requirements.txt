@@ -16,6 +16,8 @@ pycricbuzz
 pydoc-markdown
 pync==1.6.1; sys_platform == 'darwin'
 python-dateutil
+numpy
+tabula
 pytimeparse
 pyttsx3
 requests[security]
