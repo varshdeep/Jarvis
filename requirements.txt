@@ -14,10 +14,10 @@ pick
 pluginmanager
 pycricbuzz
 pydoc-markdown
-pync==1.6.1; sys_platform == 'darwin'
-python-dateutil
 numpy
 tabula
+pync==1.6.1; sys_platform == 'darwin'
+python-dateutil
 pytimeparse
 pyttsx3
 requests[security]
