@@ -15,7 +15,7 @@ pluginmanager
 pycricbuzz
 pydoc-markdown
 numpy
-tabula
+tabula-py
 pync==1.6.1; sys_platform == 'darwin'
 python-dateutil
 pytimeparse
