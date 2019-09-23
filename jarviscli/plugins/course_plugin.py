@@ -12,7 +12,7 @@ def helloworld(jarvis, s):
    """
    # Read remote pdf into DataFrame
    df2 = tabula.read_pdf("http://www.iitmandi.ac.in/academics/files/Timetable_Aug-Dec2019.pdf", pages=2)
-   arr=df2.get_values()
+   arr=df2.values
    #print(arr)
    count_row = df2.shape[0]  # gives number of row count
    t=0
