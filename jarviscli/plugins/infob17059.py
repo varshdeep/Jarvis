@@ -28,7 +28,18 @@ def infob17059(jarvis, s):
 		elif(instr == "S"):
 			print("Ben Stokes")	
 		elif(instr == "P"):
-			print("Python program")	
+			print("This program computes the factorial of a number:")
+			n = int(input("Enter a number:"))
+			
+			if(n < 0):
+				print("Invalid input")
+			else:
+				ans = 1
+
+				for i in range(1, n + 1):
+					ans = ans * i
+
+				print("factorial = %d" %(ans))			
 		elif(instr == "E"):
 			return
 		else:
